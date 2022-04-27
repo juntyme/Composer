@@ -1,0 +1,20 @@
+{
+    "name": "user/curso-composer",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "User\\CursoComposer\\": "src/",
+            "app\\":"app/"
+        },
+        "files": ["functions/helpers.php"]
+    },
+    "authors": [
+        {
+            "name": "Jonas Ferreira",
+            "email": "suporte@yesflex.com.br"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
